@@ -41,10 +41,3 @@ create table Caixa(
     foreign key (userId) references funcionario(userId),
     foreign key (registroId) references Registro_de_Saida(registroId)
 );
-
-create table produtos (
-	produtoId int not null auto_increment,
-    nomeProduto varchar(20),
-    primary key(produtoId)
-    
-);
